@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 app.use(imagesUpload)
 app.get("/",(req,res)=>{
-  res.send("Bienvenido a mi API")
+  res.send("Bienvenido a la Emi-Api")
 })
 
 const PORT = process.env.PORT || 3000;
